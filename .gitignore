@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Configuración del IDE (PyCharm)
+.idea/
+
+# Caché de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Salidas generadas del pipeline
+output/
+*.parquet
+*.crc
+
+# Binarios locales de Hadoop / Winutils
+hadoop/
+
+# Logs temporales
+*.log
+derby.log
+metastore_db/
